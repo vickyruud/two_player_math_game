@@ -11,7 +11,7 @@ Classes
 
 # State
 
-    - Players turn
+    - current_player
 
 # Behavior
 
