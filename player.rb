@@ -1,8 +1,9 @@
 class Player
   attr_accessor :lives, :name
-  def initialize (player_name)
+  def initialize ()
     @lives = 3
-    @name = player_name
+    puts "Enter your name:"
+    @name = gets.chomp
   end
 
   def reduce_lives

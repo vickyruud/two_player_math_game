@@ -4,8 +4,8 @@ require './questions.rb'
 class Game
   attr_accessor :player1, :player2, :question
   def initialize
-    @player1 = Player.new("Player 1")
-    @player2 = Player.new("Player 2")
+    @player1 = Player.new
+    @player2 = Player.new
     @current_player = @player1
   end
 
@@ -37,7 +37,7 @@ class Game
   end
   
   def toggle_player 
-    if @current_player.name == "Player 1"
+    if @current_player.name == @player1.name
       @current_player = @player2
     else
       @current_player = @player1
