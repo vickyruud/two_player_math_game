@@ -32,7 +32,7 @@ class Game
       else
         puts "#{@player2.name} wins with a score of #{@player2.lives}/3"
       end
-      puts "-----Game Over-----"
+      puts "----Game Over----"
     end    
   end
   

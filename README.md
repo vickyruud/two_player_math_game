@@ -4,7 +4,7 @@ Classes
 
 # State
 
-    - Lives
+    - Lives.
     - Name
 
 ## Game
