@@ -2,7 +2,7 @@ class Player
   attr_accessor :lives, :name
   def initialize ()
     @lives = 3
-    puts "Enter your name:"
+    puts "Please enter your name:"
     @name = gets.chomp
   end
 

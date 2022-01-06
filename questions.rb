@@ -12,6 +12,3 @@ class Question
   end
 end
 
-# @question1 = Question.new
-
-# puts @question1.create_question[1]
