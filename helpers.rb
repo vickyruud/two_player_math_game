@@ -20,7 +20,7 @@ def game_loop
       @current_player.reduce_lives
       puts "Seriously? No!!"
     end
-    puts "P1: #{@player1.lives}/3 vs P2: #{@player2.lives}/3"
+    puts "#{@player1.name}: #{@player1.lives}/3 vs #{@player2.name}: #{@player2.lives}/3"
 
     if @player1.lives > 0 && @player2.lives > 0
       puts "----- NEW TURN -----" 
