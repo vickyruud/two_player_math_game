@@ -8,7 +8,6 @@ class Question
 
     @question = "What does #{@number1} plus #{@number2} equal?"
     @result = [@question, @answer]
-    return @result
   end
 end
 

@@ -12,7 +12,6 @@ class Game
   def game_loop
     @questionObj = Question.new
     @question = @questionObj.create_question
-    # p @question[0]
     puts "#{@current_player.name}: #{@question[0]}"
     @input = gets.chomp.to_i
     if @input == @question[1]
@@ -37,7 +36,7 @@ class Game
   end
   
   def toggle_player 
-    if @current_player.name == @player1.name
+    if @current_player == @player1
       @current_player = @player2
     else
       @current_player = @player1
